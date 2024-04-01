@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>graduation project</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <center><h3>فيديو المقابلة الخاص بمشروع التخرج</h3></center>
+        <center>
+            <div class="video-container">
+                <!-- <iframe width="350px" src="video/Myproject.mp4" frameborder="0" allow="autoplay; encrypted-media"
+      allowfullscreen></iframe> -->
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/b1PPUSxHP0w?si=ro7MTmRtz1k5VLKr"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                ></iframe>
+            </div>
+        </center>
+
+        <div calss="centered">
+            <button
+                onclick="showGroupMembers()"
+                style="background-color: rgb(252, 231, 215); color: saddlebrown"
+            >
+                أعضاء المجموعة
+            </button>
+            <div id="groupMembersList" style="display: none">
+                <ul>
+                    <li>سوسن عبداللطيف</li>
+                    <li>هيا محمد</li>
+                    <li>رفاه محمد</li>
+                    <li>ريماز الحربي</li>
+                    <li>لمى أكرم</li>
+                    <li>لمى الشمري</li>
+                    <li>وسن هشام</li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            function showGroupMembers() {
+                var groupMembersList =
+                    document.getElementById('groupMembersList');
+
+                if (groupMembersList.style.display === 'none') {
+                    groupMembersList.style.display = 'block';
+                } else {
+                    groupMembersList.style.display = 'none';
+                }
+            }
+        </script>
+    </body>
+</html>

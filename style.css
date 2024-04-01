@@ -1,0 +1,32 @@
+h3 {
+    background-color: rgb(204, 150, 106);
+    color: rgb(64, 39, 19);
+}
+
+head {
+    background-color: brown;
+}
+body {
+    background-color: rgb(246, 211, 183);
+}
+ul {
+    color: rgb(135, 89, 53);
+    font-size: 120%;
+}
+.button {
+    background-color: rgb(252, 231, 215); /* Default button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: rgb(135, 89, 53); /* Darker button color when pressed */
+}
+
